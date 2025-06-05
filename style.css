@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: #000080;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+  }
+  
+  .top-bar {
+    position: absolute;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+  
+  .menu {
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    border: 2px solid white;
+    border-radius: 8px;
+    padding: 10px 20px;
+    background: transparent;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 3px;
+  }
+  
+  .settings {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .logo {
+    position: absolute;
+    right: 60px;
+    top: 20px;
+    width: 40px;
+    height: 40px;
+    background: radial-gradient(circle, #800080, #000);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .container {
+    background: white;
+    padding: 40px;
+    border: 8px solid black;
+    text-align: center;
+    max-width: 400px;
+  }
+  
+  h2 {
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .input-group {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    padding: 8px 10px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 0 black;
+    width: 48%;
+    background: white;
+    font-size: 14px;
+    letter-spacing: 3px;
+  }
+  
+  .input-group i {
+    margin-right: 8px;
+  }
+  
+  .buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    border: 2px solid #0044ff;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background: transparent;
+    color: black;
+    letter-spacing: 3px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background: #0044ff;
+    color: white;
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 20px;
+    color: white;
+    font-size: 12px;
+    letter-spacing: 3px;
+  }
+  
+  input {
+    border: none;
+    outline: none;
+    background: none;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    letter-spacing: 3px;
+  }
+  
